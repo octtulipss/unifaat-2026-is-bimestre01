@@ -4,17 +4,6 @@
 
 - [Instalação e Execução](#instalacao-e-execucao)
 - [Acesse](#acesse)
-- [🚀 Como Criar Elementos](#como-criar-elementos)
-  - [🧩 Criar uma Rota](#criar-uma-rota)
-  - [📦 Criar um Controller](#criar-um-controller)
-  - [⛓️ Criar um Middleware](#criar-um-middleware)
-  - [💻 Criar um Command](#criar-um-command)
-  - [📦 Migrations do Projeto](#migrations)
-  - [🌱 Seeds do Projeto](#seeds)
-- [📦 Bibliotecas Utilizadas](#bibliotecas-utilizadas)
-- [📁 Estrutura de Diretórios (raiz)](#estrutura-de-diretorios-raiz)
-- [🧾 Como Criar um Novo Documento Swagger](#swagger)
-- [🐳 Containers e Imagens Docker](#containers-e-imagens-docker)
 
 ---
 
@@ -25,13 +14,13 @@
 1. Clonar o repositório:
 
    ```sh
-   git clone https://github.com/luan-tavares/unifaat-frontend-project
+   git clone https://github.com/luan-tavares/unifaat-2026-is-bimestre01
    ```
 
 2. Entrar na pasta do projeto:
 
    ```sh
-   cd unifaat-frontend-project
+   cd unifaat-2026-is-bimestre01
    ```
 
 3. Criar o arquivo `.env` na raiz do projeto copiando o `.env.example`:
@@ -41,28 +30,14 @@
    cp .env.example .env
    ```
 
-4. Abrir o arquivo `.env` recém criado e preencher os campos abaixo:
-
-   ```env
-   POSTGRES_PASSWORD=123456
-   JWT_SECRET=segredo
-   ```
-
-5. Instalar as dependências:
+4. Instalar as dependências:
 
    ```sh
    npm install
    ```
 
-6. Subir a aplicação com Docker Compose:
+5. Subir a aplicação com Docker Compose:
 
-   > Docker Compose tradicional:
-
-   ```sh
-   docker-compose up --build
-   ```
-
-   > Docker Compose moderno:
 
    ```sh
    docker compose up --build
