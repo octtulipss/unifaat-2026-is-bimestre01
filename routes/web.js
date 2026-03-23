@@ -8,6 +8,8 @@ export default (function () {
 
     router.get('/', JsonHelloController);
 
+    router.post('/webhook', JsonHelloController);
+
 
     return router;
 
